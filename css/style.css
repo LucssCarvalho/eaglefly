@@ -150,3 +150,9 @@ footer ul{list-style:none;display:grid;gap:6px}
   .hide-m{display:none}
 }
 section[id]{scroll-margin-top:72px}
+
+@media(max-width:860px){
+  .site-header{background:rgba(10,26,43,.94);backdrop-filter:blur(8px)}
+  .burger{border-radius:10px}
+  .burger span{background:#fff!important;opacity:1;height:3px;width:28px}
+}
